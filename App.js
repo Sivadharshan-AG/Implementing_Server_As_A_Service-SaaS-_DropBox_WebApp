@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 import DropboxChooser from "react-dropbox-chooser";
 
-const APP_KEY = "Past the App Key";
+const APP_KEY = "Paste the App Key";
 
 export default function App() {
   const [urls, setUrls] = useState([]);
