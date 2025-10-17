@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.App {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+button {
+  background-color: #007ee5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+img {
+  display: block;
+}
