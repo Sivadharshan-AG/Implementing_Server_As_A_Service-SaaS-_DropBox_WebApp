@@ -1,0 +1,29 @@
+structure :
+
+dropbox-app/
+│
+├─ public/
+│   ├─ index.html
+│   └─ favicon.ico
+│
+├─ src/
+│   ├─ App.js
+│   ├─ index.js
+│   └─ styles.css
+│
+├─ package.json
+└─ package-lock.json (generated after npm install)
+
+note :
+
+make sure you have given the App Key in the App.js
+take the unique App key from DropBox DBX website by creating new App
+to see the uploaded file go to Dropbox Website (login in the same acct in which you got the App key)
+
+commands:
+
+you must run the commands in inside the project folder/directory:
+
+npm install react-dropbox-chooser
+npm install
+npm start
